@@ -6,9 +6,9 @@ This repository contains real-time, voice-to-voice assistant implementations and
 
 | Project | Description |
 | :--- | :--- |
-| **Gemini Live Voice** | A low-latency, real-time voice assistant with barge-in support and client-side VAD. |
-| **Gemini Live Voice w/ RAG** | The base assistant extended with RAG functionality for fact-based, context-aware document querying. |
-| **WhatsApp Business Agent** | A conversational agent integrated with WhatsApp for automated business interactions and service handling. |
+| [**Gemini Live Voice**](gemini_live_voice/) | A low-latency, real-time voice assistant with barge-in support and client-side VAD. |
+| [**Gemini Live Voice w/ RAG**](gemini_live_voice_rag/) | The base assistant extended with RAG functionality for fact-based, context-aware document querying. |
+| [**WhatsApp Business Agent**](whatsapp_business_agent/) | A conversational agent integrated with WhatsApp for automated business interactions and service handling. |
 
 ## Shared Features
 
