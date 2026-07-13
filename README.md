@@ -2,11 +2,13 @@
 
 This repository contains real-time, voice-to-voice assistant implementations and communication agents built with FastAPI and the Google Gemini API.
 
-## Project Directories
+## Project Overview
 
-* [/gemini_live_voice](gemini_live_voice/): Core voice assistant implementation.
-* [/gemini_live_voice_rag](gemini_live_voice_rag/): Voice assistant with retrieval-augmented generation.
-* [/whatsapp_business_agent](whatsapp_business_agent/): Automated WhatsApp messaging agent.
+| Project | Description |
+| :--- | :--- |
+| **Gemini Live Voice** | A low-latency, real-time voice assistant with barge-in support and client-side VAD. |
+| **Gemini Live Voice w/ RAG** | The base assistant extended with RAG functionality for fact-based, context-aware document querying. |
+| **WhatsApp Business Agent** | A conversational agent integrated with WhatsApp for automated business interactions and service handling. |
 
 ## Shared Features
 
@@ -17,9 +19,9 @@ This repository contains real-time, voice-to-voice assistant implementations and
 
 ## Project Directories
 
-* `/gemini_live_voice`: Core voice assistant implementation.
-* `/gemini_live_voice_rag`: Voice assistant with retrieval-augmented generation.
-* `/whatsapp_business_agent`: Automated WhatsApp messaging agent.
+* [/gemini_live_voice](gemini_live_voice/): Core voice assistant implementation.
+* [/gemini_live_voice_rag](gemini_live_voice_rag/): Voice assistant with retrieval-augmented generation.
+* [/whatsapp_business_agent](whatsapp_business_agent/): Automated WhatsApp messaging agent.
 
 ## Prerequisites
 
